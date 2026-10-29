@@ -1,0 +1,73 @@
+6
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recall - My Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+
+        <aside class="sidebar">
+            <h2>Recall.</h2>
+
+            <button id="newNoteBtn">+ New Note</button>
+
+            <input type="text" id="searchInput" placeholder="Search notes...">
+
+            <h4>WORKSPACE</h4>
+            <p class="menu-item">All Notes</p>
+            <p class="menu-item">Pinned</p>
+            <p class="menu-item">Recent</p>
+
+            <h4>ORGANIZE</h4>
+            <p class="menu-item">My Folders</p>
+            <p class="menu-item">Tags</p>
+            <p class="menu-item">Trash</p>
+        </aside>
+
+        <main class="main-content">
+
+            <header class="topbar">
+                <div>
+                    <h1>My Notes</h1>
+                    <p>Your thoughts, all in one place.</p>
+                </div>
+
+                <button id="exportBtn">Export</button>
+            </header>
+
+            <section class="notes-area">
+                <div class="notes-list" id="notesList">
+                    <p>No notes yet. Create your first note!</p>
+                </div>
+
+                <div class="editor">
+                    <input
+                        type="text"
+                        id="noteTitle"
+                        placeholder="Note title"
+                    >
+
+                    <textarea
+                        id="noteContent"
+                        placeholder="Start writing here..."
+                    ></textarea>
+
+                    <button id="saveNoteBtn">Save Note</button>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    <script src="script.js"></script>
+</body>
+</html>
